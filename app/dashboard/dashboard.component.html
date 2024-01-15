@@ -1,0 +1,277 @@
+<br/><br/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+<body>
+    <!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+    <div class="w3-container">
+      <h1 class="w3-padding-64" style="font-family: 'Times New Roman', Times, serif ;"><b>CyberSafety</b></h1>
+    </div>
+    <div class="w3-bar-block">
+      <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+      <a href="cybernews" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Cyber News</a> 
+      <a href="incidentreports" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Incident Reports</a> 
+      <a href="antivirus" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Antivirus</a> 
+      <a href="contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+    <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+    <span>CyberSafety</span>
+  </header>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+    <!-- Header -->
+    <div class="w3-container" style="margin-top:80px" id="showcase">
+      <h1 class="w3-jumbo" ><b>Cyber Safety</b></h1>
+      <h5 style="font-family: Tiresias;"><b>Your safety is our priority</b></h5>
+      <h1 class="w3-xxxlarge w3-text-red"><b>Cyber News.</b></h1>
+      <hr style="width:50px;border:5px solid red" class="w3-round">
+    </div>
+    
+    <!-- cyber news -->
+    <div class="w3-row-padding">
+        <div class="w3-half">
+          <h1 style="font-family: 'Times New Roman', Times, serif;">Malware</h1>
+          <p style="font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>M</b>alware, short for malicious software, refers to any software specifically designed to harm, exploit, or compromise computer systems, networks, or user devices. Malware can take various forms and is created with the intent of causing damage, stealing sensitive information, or disrupting the normal functioning of a computer or network. Here are some common types of malware: <br>
+
+            <b>Viruses</b>: These are programs that attach themselves to legitimate files and replicate when the infected file is executed. Viruses can spread through email attachments, infected software, or compromised websites. <br>
+            
+            <b>Worms</b>: Worms are standalone programs that can replicate and spread across networks without the need for a host file. They often exploit vulnerabilities in operating systems or applications to propagate. <br>
+            
+            <b>Trojans</b>: Trojans disguise themselves as legitimate software or files to deceive users into installing them. Once installed, they can create a backdoor for attackers, allowing unauthorized access to the infected system. <br>
+            
+            </p>
+        </div>
+    
+        <div class="w3-half">
+          <h2 style="font-family: 'Times New Roman', Times, serif;">Preventive measures</h2>
+
+          <p style="font-family: 'Times New Roman';">
+            <b>Use Antivirus Software</b>:
+            Install reputable antivirus software and keep it up-to-date. Regularly schedule scans to detect and remove malware. <br>
+            
+            <b>Keep Software Updated</b>:
+            Regularly update your operating system, applications, and software to patch vulnerabilities. Enable automatic updates whenever possible. <br>
+            
+            <b>Use a Firewall</b>:
+            Enable a firewall to monitor and control incoming and outgoing network traffic. This helps prevent unauthorized access to your computer. <br>
+
+            <b>Be Cautious with Email</b>:            
+            Avoid opening emails from unknown or suspicious sources.
+            Don't click on links or download attachments from untrusted emails.
+            Be wary of emails that create a sense of urgency or ask for sensitive information. <br>
+
+            <b>Enable Email Filtering</b>:            
+            Use email filtering tools to detect and filter out phishing emails and malicious attachments. <br>
+
+            <b>Educate Users</b>:            
+            Train users to recognize phishing attempts and the importance of safe online practices.
+            Conduct regular security awareness training to keep users informed about current threats. <br>
+
+          </p>
+        </div>
+      </div>
+      <div class="w3-row-padding">
+        <div class="w3-half">
+          <h1 style="font-family: 'Times New Roman', Times, serif;">Phishing</h1>
+          <p style="font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>P</b>hishing is a type of cyber attack in which attackers attempt to trick individuals into divulging sensitive information, such as usernames, passwords, and financial details, by posing as a trustworthy entity. This fraudulent activity is typically carried out through deceptive emails, messages, or websites. The term "phishing" is a play on the word "fishing," as cybercriminals are essentially fishing for sensitive information.
+
+            Here are the common characteristics of phishing attacks: <br>
+            
+            <b>Emails and Messages</b>: Phishing attacks often begin with an email or message that appears to be from a legitimate source, such as a bank, government agency, or reputable company. <br>
+            
+            <b>Deceptive Content</b>: The content of the email or message is crafted to create a sense of urgency, fear, or curiosity, prompting the recipient to take immediate action. <br>
+            
+            <b>Fake Websites</b>: Phishing emails typically contain links that lead to fake websites designed to mimic legitimate ones. These sites are used to collect sensitive information when users unwittingly enter their details. <br>
+            </p>
+        </div>
+    
+        <div class="w3-half">
+          <h2 style="font-family: 'Times New Roman', Times, serif;">Preventive measures</h2>
+
+          <p style="font-family: 'Times New Roman';"><b>Be Skeptical</b>: Exercise caution when receiving unsolicited emails, especially those requesting sensitive information or immediate action. <br>
+
+            <b>Verify Links</b>: Hover over links in emails to preview the actual URL before clicking. Ensure that the website address matches the legitimate one. <br>
+            
+            <b>Check Email Sender</b>: Verify the sender's email address. Be cautious if the email claims to be from a well-known entity but has a suspicious or unfamiliar email address. <br>
+            
+            <b>Use Multi-Factor Authentication (MFA)</b>: Enable MFA whenever possible to add an extra layer of security to your accounts. <br>
+            
+            <b>Security Software</b>: Install and regularly update security software, including antivirus and anti-phishing tools. <br>
+            
+            <b>Educate Users</b>: Provide training and awareness programs to educate individuals about the dangers of phishing and how to recognize and avoid such attacks. <br>
+          </p>
+        </div>
+      </div>
+  
+    
+    <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+      <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+      <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption"></p>
+      </div>
+    </div>
+
+        <!-- Designers -->
+        <div class="w3-container" id="designers" style="margin-top:75px">
+          <h1 class="w3-xxxlarge w3-text-red"><b>INCIDENT REPORTS.</b></h1>
+          <hr style="width:50px;border:5px solid red" class="w3-round">
+          <p>An incident report is a crucial document that provides details about a security event or incident. It serves as a record of what happened, when it happened, and how it was addressed. Here are some of the recent incident reports.
+    
+          </p>
+          <h3><b>Recent Incidents</b>:</h3>
+        </div>
+      
+        <!-- The Team -->
+        <div class="w3-row-padding w3-grayscale">
+          <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+              <img src="/src/assets/images/download.jpeg" alt="Victoria Court" style="width:100%">
+              <div class="w3-container">
+                <h4>DATE: January 2 2024</h4>
+                <p class="w3-opacity">Victoria Court System Data Breach:</p>
+                <p>The Guardian reports that the court system in Victoria, Australia has been hacked and the unauthorized parties gained access the recordings of various court hearings. However, “no other court systems or records, including employee or financial data, were accessed,” chief executive Louise Anderson said in a statement.</p>
+              </div>
+            </div>
+          </div>
+          <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+              <img src="/src/assets/images/download (2).jpeg" alt="Norton Healthcare" style="width:100%">
+              <div class="w3-container">
+                <h4>DATE: December 11 2023</h4>
+                <p class="w3-opacity">Norton Healthcare Data Breach:</p>
+                <p>Norton Healthcare has suffered a data breach impacting an estimated 2.5 million people. The firm, based in Kentucky, says that threat actors gained unauthorized access to personal information about millions of patients, as well as a considerable number of employees.                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+              <img src="/src/assets/images/download (1).jpeg" alt="Vanderbilt University" style="width:100%">
+              <div class="w3-container">
+                <h4>DATE: November 24 2023</h4>
+                <p class="w3-opacity">Vanderbilt University Medical Center Data Breach:</p>
+                <p>A Tennessee-based medical institution has confirmed it fell victim to a ransomware attack orchestrated by the Meow ransomware gang. The Medical Center – which has over 40,000 employees – was one of several organizations added to the group leak database in November 2023.                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+    <!-- Packages / Pricing Tables -->
+    <div class="w3-container" id="packages" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-red"><b>ANTIVIRUS.</b></h1>
+      <hr style="width:50px;border:5px solid red" class="w3-round">
+      <p>An antivirus is a software program that is designed to detect, protect against, and remove malware and viruses on a computer or mobile device1. There are many antivirus software available, such as Avast, McAfee, and Malwarebytes. Some antivirus software are free, while others require a subscription or a one-time purchase. Antivirus software can help you stay safe online by preventing malicious attacks, protecting your personal data, and enhancing your device performance.  </p>
+    </div>
+
+    <div class="w3-row-padding w3-grayscale">
+      <div class="w3-col m4 w3-margin-bottom">
+        <div class="w3-light-grey">
+          <div class="w3-container">
+            <h4>McAfee</h4>
+            <a href="https://www.mcafee.com/consumer/en-in/landing-page/direct/sem/search-campaign.html?csrc=bing&csrcl2=text-ad&cctype=search&ccstype=&ccoe=direct&ccoel2=sem&pkg_id=521&affid=1487&utm_source=bing&utm_medium=paidsearch&utm_campaign=%5BEN-IN%5D%5BSearch%5D%5BBrand%5D+McAfee+-+EXACT&utm_content=%5Bbrand%5D%5Bexact%5D+mcafee&utm_term=mcafee&&utm_source=bing&utm_medium=paidsearch&utm_campaign=[EN-IN][Search][Brand]%20McAfee&utm_content=[brand][exact]%20mcafee&utm_term=mcafee&gclid=c1728bf5cd36147c634eee69ca47626f&gclsrc=3p.ds&msclkid=c1728bf5cd36147c634eee69ca47626f&gclid=c1728bf5cd36147c634eee69ca47626f&gclsrc=3p.ds"  style="color: blue;">DOWNLOAD HERE</a>
+            <p>McAfee is a affordable all-in-one protection for your personal info and privacy, so you can enjoy life online. Includes two years of premium antivirus, safe browsing, and identity monitoring.</p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col m4 w3-margin-bottom">
+        <div class="w3-light-grey">
+          <div class="w3-container">
+            <h4>Avast</h4>
+            <a href="https://www.avast.com/en-in/lp-ppc-free-av-brand?ppc_code=013&ppc=a&gclid=4dea08c90860160cff026d550164f717&gclsrc=3p.ds&msclkid=4dea08c90860160cff026d550164f717&utm_source=bing&utm_medium=cpc&utm_campaign=en-in_ava_sch_brn_exc_bng_dtp&utm_term=advast&utm_content=top-avast-exact#pc" style="color: blue;">DOWNLOAD HERE</a>
+            <p>Avast Software is a Czech multinational cybersecurity software company headquartered in Prague, Czech Republic, that researches and develops computer security software, machine learning, and artificial intelligence. </p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col m4 w3-margin-bottom">
+        <div class="w3-light-grey">
+          <div class="w3-container">
+            <h4>Malwarebytes</h4>
+            <a href="https://www.malwarebytes.com/premium" style="color: blue;">DOWNLOAD HERE</a>
+            <p>Malwarebytes (formerly Malwarebytes Anti-Malware, abbreviated as MBAM) is anti-malware software for Microsoft Windows, macOS, ChromeOS, Android, and iOS that finds and removes malware.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    
+
+
+        <!-- Contact -->
+ <div >
+  <div style="padding-left: 300px;" class="w3-container" id="contact" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+      <hr style="width:50px;border:5px solid red" class="w3-round">
+      <p>contact us in the given box</p>
+      <form  target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input w3-border" type="text" name="Name" required>
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input w3-border" type="text" name="Email" required>
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input w3-border" type="text" name="Message" required>
+        </div>
+        <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+      </form>  
+    </div>
+    </div>    
+  
+    
+    
+   
+  <!-- End page content -->
+  </div>
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" >
+  <div class="collapse navbar-collapse" id="navbarsExample">
+    <div class="w3-container">
+      <h1 class="w3-padding-64" style="font-family: 'Times New Roman', Times, serif ;"><b>CyberSafety</b></h1>
+    </div>
+    <div class="w3-bar-block">
+      <a class="w3-bar-item w3-button w3-hover-white nav-link" *ngIf="loginbtn" routerLink="home" routerLinkActive="active">HOME</a> 
+      <a class="w3-bar-item w3-button w3-hover-white nav-link" *ngIf="loginbtn" routerLink="login" routerLinkActive="active">LOGIN</a>
+      <a class="w3-bar-item w3-button w3-hover-white nav-link" *ngIf="loginbtn" routerLink="registration" routerLinkActive="active">REGISTRATION</a> 
+      <a class="w3-bar-item w3-button w3-hover-white nav-link" *ngIf="logoutbtn" (click)="logout()">LOGOUT</a> 
+      <a class="w3-bar-item w3-button w3-hover-white nav-link" *ngIf="logoutbtn" routerLink="dashboard" routerLinkActive="active">DASHBOARD</a> 
+    </div>
+  </div>
+  </nav>
+  <router-outlet></router-outlet>

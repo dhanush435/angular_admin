@@ -1,0 +1,103 @@
+<br/><br/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+<body>
+    
+
+  <!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+    <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+    <span>CyberSafety</span>
+  </header>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+
+        
+    <!-- Packages / Pricing Tables -->
+    <div class="w3-container" id="packages" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-red"><b>ANTIVIRUS.</b></h1>
+      <hr style="width:50px;border:5px solid red" class="w3-round">
+      <p>An antivirus is a software program that is designed to detect, protect against, and remove malware and viruses on a computer or mobile device1. There are many antivirus software available, such as Avast, McAfee, and Malwarebytes. Some antivirus software are free, while others require a subscription or a one-time purchase. Antivirus software can help you stay safe online by preventing malicious attacks, protecting your personal data, and enhancing your device performance.  </p>
+    </div>
+
+    <div class="w3-row-padding w3-grayscale">
+      <div class="w3-col m4 w3-margin-bottom">
+        <div class="w3-light-grey">
+          <div class="w3-container">
+            <h4>McAfee</h4>
+            <a href="https://www.mcafee.com/consumer/en-in/landing-page/direct/sem/search-campaign.html?csrc=bing&csrcl2=text-ad&cctype=search&ccstype=&ccoe=direct&ccoel2=sem&pkg_id=521&affid=1487&utm_source=bing&utm_medium=paidsearch&utm_campaign=%5BEN-IN%5D%5BSearch%5D%5BBrand%5D+McAfee+-+EXACT&utm_content=%5Bbrand%5D%5Bexact%5D+mcafee&utm_term=mcafee&&utm_source=bing&utm_medium=paidsearch&utm_campaign=[EN-IN][Search][Brand]%20McAfee&utm_content=[brand][exact]%20mcafee&utm_term=mcafee&gclid=c1728bf5cd36147c634eee69ca47626f&gclsrc=3p.ds&msclkid=c1728bf5cd36147c634eee69ca47626f&gclid=c1728bf5cd36147c634eee69ca47626f&gclsrc=3p.ds"  style="color: blue;">DOWNLOAD HERE</a>
+            <p>McAfee is a affordable all-in-one protection for your personal info and privacy, so you can enjoy life online. Includes two years of premium antivirus, safe browsing, and identity monitoring.</p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col m4 w3-margin-bottom">
+        <div class="w3-light-grey">
+          <div class="w3-container">
+            <h4>Avast</h4>
+            <a href="https://www.avast.com/en-in/lp-ppc-free-av-brand?ppc_code=013&ppc=a&gclid=4dea08c90860160cff026d550164f717&gclsrc=3p.ds&msclkid=4dea08c90860160cff026d550164f717&utm_source=bing&utm_medium=cpc&utm_campaign=en-in_ava_sch_brn_exc_bng_dtp&utm_term=advast&utm_content=top-avast-exact#pc" style="color: blue;">DOWNLOAD HERE</a>
+            <p>Avast Software is a Czech multinational cybersecurity software company headquartered in Prague, Czech Republic, that researches and develops computer security software, machine learning, and artificial intelligence. </p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col m4 w3-margin-bottom">
+        <div class="w3-light-grey">
+          <div class="w3-container">
+            <h4>Malwarebytes</h4>
+            <a href="https://www.malwarebytes.com/premium" style="color: blue;">DOWNLOAD HERE</a>
+            <p>Malwarebytes (formerly Malwarebytes Anti-Malware, abbreviated as MBAM) is anti-malware software for Microsoft Windows, macOS, ChromeOS, Android, and iOS that finds and removes malware.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    
+
+
+       
+   
+  <!-- End page content -->
+  </div>
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
